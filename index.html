@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISHA CARE CLINIC INC | Compassionate Community Healthcare, Wellness & Public Health</title>
+    <meta name="description" content="ISHA CARE CLINIC INC (EIN: 26-3140250) is a dedicated 501(c)(3) nonprofit healthcare organization advancing accessible community care, preventive wellness, and patient support in McMinnville, Tennessee. Official domain: ishacareclinicinc.us.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18225770213"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18225770213');
+    </script>
+    <!-- Google Ads Conversion Snippet -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-18225770213/5BZ0CPSugP0cEOXd3PJD',
+            'value': 1.0,
+            'currency': 'USD',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script>
+    <style>
+        :root {
+            --primary: #115e59;
+            --primary-accent: #0d9488;
+            --accent-light: #f0fdfa;
+            --secondary: #0f172a;
+            --accent-gold: #d97706;
+            --light-bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #334155;
+            --text-dark: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            --radius: 16px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Outfit', sans-serif;
+            color: var(--text-main);
+            background-color: #ffffff;
+            line-height: 1.7;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            color: var(--text-dark);
+            letter-spacing: -0.02em;
+        }
+        /* Top Navigation Bar */
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 5%;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+        .logo-badge {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-accent));
+            color: white;
+            border-radius: 10px;
+            display: grid;
+            place-items: center;
+            font-weight: 700;
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+        .nav-links a:hover {
+            color: var(--primary-accent);
+        }
+
+        /* Hero Header Section */
+        .hero-main {
+            padding: 4.5rem 5% 3.5rem;
+            text-align: center;
+            max-width: 920px;
+            margin: 0 auto;
+        }
+        .hero-main h1 {
+            font-size: 2.85rem;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+            font-weight: 700;
+        }
+        .hero-main p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            line-height: 1.7;
+            margin-bottom: 2.5rem;
+        }
+        .hero-banner-img {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Teal Mid Banner Section */
+        .accent-banner {
+            background-color: var(--primary-accent);
+            color: #ffffff;
+            padding: 5rem 5%;
+            text-align: center;
+        }
+        .accent-banner-container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        .accent-banner h2 {
+            color: #ffffff;
+            font-size: 2.4rem;
+            margin-bottom: 1.8rem;
+            font-weight: 700;
+        }
+        .accent-banner p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        /* Content / Image Row Section */
+        .content-section {
+            padding: 5rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        .content-image img {
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
+        }
+        .content-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.2rem;
+            color: var(--text-dark);
+        }
+        .content-text p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        /* Dark Bottom Banner Section */
+        .dark-banner {
+            background-color: var(--secondary);
+            color: #cbd5e1;
+            padding: 5rem 5%;
+            text-align: center;
+        }
+        .dark-banner-container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        .dark-banner h2 {
+            color: #ffffff;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+        }
+        .dark-banner p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #94a3b8;
+            margin-bottom: 1.5rem;
+        }
+        .action-prompt {
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1.2rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        .action-prompt a {
+            color: #2dd4bf;
+            text-decoration: none;
+        }
+
+        /* Full About Section Expanded */
+        .about-expanded-section {
+            padding: 5rem 5%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .about-expanded-section h2 {
+            font-size: 2.4rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .about-expanded-section p {
+            font-size: 1.05rem;
+            color: var(--text-main);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .about-card {
+            background: var(--light-bg);
+            padding: 2rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+        }
+        .about-card h4 {
+            color: var(--primary-accent);
+            font-size: 1.25rem;
+            margin-bottom: 0.8rem;
+        }
+        .about-card p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 0;
+        }
+
+        /* Footer Section */
+        footer {
+            background: #ffffff;
+            color: var(--text-main);
+            padding: 5rem 5% 2rem;
+            border-top: 1px solid var(--border);
+        }
+        .footer-layout {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 3rem;
+        }
+        .footer-col h4 {
+            color: var(--text-dark);
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        .footer-col ul {
+            list-style: none;
+        }
+        .footer-col ul li {
+            margin-bottom: 0.9rem;
+        }
+        .footer-col ul li a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: var(--transition);
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+        .footer-col ul li a:hover {
+            color: var(--primary-accent);
+        }
+        .org-details-list li {
+            margin-bottom: 0.7rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        .org-details-list a {
+            color: var(--primary-accent);
+            text-decoration: none;
+        }
+        .footer-bottom-copy {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Contact Page Section */
+        .section {
+            padding: 5rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+        .contact-box {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+        }
+        .contact-box h3 {
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        .contact-detail {
+            margin-bottom: 1.2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-detail span {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        .contact-detail strong, .contact-detail a {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        .btn-primary {
+            background: var(--primary-accent);
+            color: #ffffff;
+            padding: 0.8rem 1.6rem;
+            border-radius: 50px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .btn-primary:hover {
+            background: var(--primary);
+        }
+
+        /* Modals */
+        .modal-page {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(8px);
+            z-index: 2000;
+            overflow-y: auto;
+            padding: 3rem 1rem;
+        }
+        .modal-content {
+            background: #ffffff;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-lg);
+            position: relative;
+        }
+        .modal-close {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            background: var(--light-bg);
+            border: 1px solid var(--border);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: grid;
+            place-items: center;
+        }
+        .policy-meta {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+        }
+        .policy-content h3 {
+            font-size: 1.3rem;
+            margin: 1.8rem 0 0.8rem;
+        }
+        .policy-content p, .policy-content ul {
+            margin-bottom: 1rem;
+        }
+        .policy-content ul {
+            padding-left: 1.5rem;
+        }
+
+        @media (max-width: 900px) {
+            .content-section, .contact-grid, .footer-layout, .about-grid {
+                grid-template-columns: 1fr;
+            }
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-badge">ICC</div>
+                ISHA CARE CLINIC INC
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-main">
+        <h1>Compassionate Community Healthcare, Preventive Wellness & Accessible Care</h1>
+        <p>Welcome to the official home of ISHA CARE CLINIC INC. We are a dedicated 501(c)(3) nonprofit healthcare organization advancing patient-centered care, preventive health education, and holistic wellness support for individuals and families in McMinnville, Tennessee, and surrounding communities.</p>
+        <img class="hero-banner-img" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&h=500&q=80" alt="Healthcare clinician consulting with a patient in a community clinic">
+    </section>
+
+    <!-- Teal Mid Banner Section -->
+    <section class="accent-banner">
+        <div class="accent-banner-container">
+            <h2>Our Enduring Commitment to McMinnville and Patient-Centered Care</h2>
+            <p>At ISHA CARE CLINIC INC, we believe quality healthcare and holistic well-being should be welcoming, dignified, and accessible to every neighbor. Operating from 951 ISHA LN, MCMINNVILLE TN 37110, our clinic serves as a trusted resource for primary wellness guidance, preventive screenings, and compassionate health outreach across Warren County and Middle Tennessee.</p>
+        </div>
+    </section>
+
+    <!-- Image & Text Section 1 -->
+    <section class="content-section">
+        <div class="content-image">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=700&h=450&q=80" alt="Medical care providers reviewing patient wellness plans together">
+        </div>
+        <div class="content-text">
+            <h3>Delivering Accessible Primary Care & Preventive Health Support</h3>
+            <p>Healthy communities thrive when individuals have reliable guidance to manage their well-being before minor concerns become major challenges. ISHA CARE CLINIC INC brings together dedicated healthcare professionals, volunteers, and community advocates to offer compassionate consultations and preventive wellness services.</p>
+            <p>From routine health assessments and chronic condition education to patient navigation, our care team treats every person with respect, empathy, and clinical integrity.</p>
+        </div>
+    </section>
+
+    <!-- Image & Text Section 2 (Reversed) -->
+    <section class="content-section" style="padding-top: 1rem;">
+        <div class="content-text">
+            <h3>Promoting Holistic Wellness, Health Literacy & Community Outreach</h3>
+            <p>True well-being encompasses physical vitality, mental balance, and informed lifestyle habits. ISHA CARE CLINIC INC hosts community wellness workshops, nutrition and stress-management education, and local health outreach initiatives designed to empower families with practical everyday tools.</p>
+            <p>By collaborating with local civic groups and regional health partners, we help build a healthier, more resilient McMinnville community.</p>
+        </div>
+        <div class="content-image">
+            <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=700&h=450&q=80" alt="Stethoscope and clinical care tools symbolizing community health">
+        </div>
+    </section>
+
+    <!-- Full Detailed About Us Section -->
+    <section id="about" class="about-expanded-section">
+        <h2>About ISHA CARE CLINIC INC</h2>
+        <p>Established to expand compassionate, community-focused healthcare and preventive wellness education, <strong>ISHA CARE CLINIC INC</strong> operates as a registered 501(c)(3) nonprofit organization under federal tax-exempt guidelines (EIN: 26-3140250). Located at 951 ISHA LN, MCMINNVILLE TN 37110, our clinic integrates clinical care with holistic well-being support.</p>
+        
+        <p>Our programs center on improving health access, supporting preventive care, and fostering wellness literacy throughout McMinnville and Tennessee. We maintain the highest standards of patient dignity, ethical governance, and fiscal accountability in all of our charitable healthcare initiatives.</p>
+
+        <div class="about-grid">
+            <div class="about-card">
+                <h4>Our Mission</h4>
+                <p>To provide compassionate, accessible healthcare services and preventive wellness education that uplift individuals and families in our community.</p>
+            </div>
+            <div class="about-card">
+                <h4>Our Vision</h4>
+                <p>A vibrant, healthy community where every individual has equitable access to dignified care, preventive resources, and holistic well-being.</p>
+            </div>
+            <div class="about-card">
+                <h4>Core Principles</h4>
+                <p>Clinical integrity, patient-centered compassion, transparent nonprofit stewardship, and inclusive care for every member of our community.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dark Bottom Banner Section -->
+    <section class="dark-banner">
+        <div class="dark-banner-container">
+            <h2>Connect With Our Clinic & Community Health Team</h2>
+            <p>Whether you are seeking information about community wellness programs, exploring clinical volunteer opportunities, or partnering with our 501(c)(3) healthcare mission, ISHA CARE CLINIC INC welcomes your outreach.</p>
+            <div class="action-prompt">
+                <strong>Clinic & Administrative Inquiries:</strong> Reach out to our team at <a href="mailto:query@ishacareclinicinc.us">query@ishacareclinicinc.us</a> for program information, volunteer coordination, or official 501(c)(3) documentation.
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div style="text-align: center; margin-bottom: 4rem;">
+            <h2>Contact ISHA CARE CLINIC INC</h2>
+            <p style="color: var(--text-muted);">Reach out to our administrative office for clinic program inquiries, community health partnerships, or official 501(c)(3) verification.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-box">
+                <h3>Clinic Information</h3>
+                <div class="contact-detail">
+                    <span>Legal Entity Name</span>
+                    <strong>ISHA CARE CLINIC INC</strong>
+                </div>
+                <div class="contact-detail">
+                    <span>Federal Tax ID (EIN)</span>
+                    <strong>26-3140250</strong>
+                </div>
+                <div class="contact-detail">
+                    <span>Official Email Address</span>
+                    <a href="mailto:query@ishacareclinicinc.us">query@ishacareclinicinc.us</a>
+                </div>
+                <div class="contact-detail">
+                    <span>Official Domain</span>
+                    <a href="https://ishacareclinicinc.us">ishacareclinicinc.us</a>
+                </div>
+                <div class="contact-detail">
+                    <span>Clinic & Mailing Address</span>
+                    <strong>951 ISHA LN<br>MCMINNVILLE TN 37110, United States</strong>
+                </div>
+            </div>
+            <div class="contact-box">
+                <h3>Send Us A Message</h3>
+                <form class="contact-form" onsubmit="gtag_report_conversion(); event.preventDefault(); alert('Message sent successfully to query@ishacareclinicinc.us!');">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="How can ISHA CARE CLINIC INC assist you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-layout">
+            <div class="footer-col">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a onclick="openModal('privacyModal')">Privacy Policy</a></li>
+                    <li><a onclick="openModal('termsModal')">Terms of Use</a></li>
+                    <li><a onclick="openModal('nondiscrimModal')">Nondiscrimination Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>ISHA CARE CLINIC INC</h4>
+                <ul class="org-details-list">
+                    <li><strong>EIN:</strong> 26-3140250</li>
+                    <li><strong>Address:</strong><br>951 ISHA LN<br>MCMINNVILLE TN 37110<br>United States</li>
+                    <li><strong>Email:</strong> <a href="mailto:query@ishacareclinicinc.us">query@ishacareclinicinc.us</a></li>
+                    <li><strong>Domain:</strong> <code>ishacareclinicinc.us</code></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom-copy">
+            © 2026 ISHA CARE CLINIC INC. All rights reserved. <code>ishacareclinicinc.us</code> is an official domain.
+        </div>
+    </footer>
+
+    <!-- POLICY MODALS -->
+    <!-- Full Privacy Policy Modal -->
+    <div id="privacyModal" class="modal-page">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('privacyModal')">×</button>
+            <h2 style="font-size: 2.2rem; margin-bottom: 0.5rem;">Full Privacy Policy</h2>
+            <div class="policy-meta">
+                <strong>Organization:</strong> ISHA CARE CLINIC INC (EIN: 26-3140250) | 
+                <strong>Domain:</strong> ishacareclinicinc.us | 
+                <strong>Effective Date:</strong> January 1, 2026
+            </div>
+            <div class="policy-content">
+                <p>ISHA CARE CLINIC INC ("we," "our," or "us") operates the official website <code>ishacareclinicinc.us</code>. We are deeply committed to protecting the privacy, security, and confidentiality of all visitors, community members, volunteers, and supporters who interact with our 501(c)(3) nonprofit healthcare organization.</p>
+                
+                <h3>1. Information We Collect</h3>
+                <p>We collect personal information that you voluntarily provide to us when communicating with our clinic team or submitting general inquiries through our website. Please do not submit sensitive personal health records through the general contact form. Information collected includes:</p>
+                <ul>
+                    <li><strong>Contact Details:</strong> Your full name, email address (such as when contacting <code>query@ishacareclinicinc.us</code>), telephone number, and physical mailing address.</li>
+                    <li><strong>Correspondence Data:</strong> General program inquiries, volunteer applications, feedback, or messages submitted via direct email or web contact forms.</li>
+                    <li><strong>Technical Data:</strong> Non-identifying IP addresses, browser types, device specifications, and server access logs collected automatically to safeguard website security and optimize performance.</li>
+                </ul>
+
+                <h3>2. How We Use Your Information</h3>
+                <p>ISHA CARE CLINIC INC utilizes collected information strictly for legitimate charitable, educational, and clinic administrative purposes:</p>
+                <ul>
+                    <li>To respond directly to general inquiries, community health questions, and volunteer requests.</li>
+                    <li>To coordinate preventive wellness workshops, outreach initiatives, and community support programs.</li>
+                    <li>To maintain accurate administrative records and comply fully with federal 501(c)(3) tax-reporting and regulatory requirements.</li>
+                </ul>
+
+                <h3>3. Confidentiality and Data Protection</h3>
+                <p>We maintain strict administrative, physical, and technical safeguards. <strong>ISHA CARE CLINIC INC does not sell, rent, lease, or trade personal data or correspondence information to any third parties under any circumstances.</strong> Information is shared solely with trusted service providers bound by strict confidentiality obligations who directly support our digital operations and website infrastructure.</p>
+
+                <h3>4. Policy Updates and Contact Information</h3>
+                <p>We may update this Privacy Policy periodically to reflect organizational improvements or statutory changes. If you have any questions regarding this policy or wish to review, update, or remove your personal data, please contact our administrative office at:</p>
+                <p>
+                    <strong>ISHA CARE CLINIC INC</strong><br>
+                    951 ISHA LN, MCMINNVILLE TN 37110, United States<br>
+                    Email: <a href="mailto:query@ishacareclinicinc.us">query@ishacareclinicinc.us</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Full Terms of Use Modal -->
+    <div id="termsModal" class="modal-page">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('termsModal')">×</button>
+            <h2 style="font-size: 2.2rem; margin-bottom: 0.5rem;">Full Terms of Use</h2>
+            <div class="policy-meta">
+                <strong>Organization:</strong> ISHA CARE CLINIC INC (EIN: 26-3140250) | 
+                <strong>Domain:</strong> ishacareclinicinc.us | 
+                <strong>Effective Date:</strong> January 1, 2026
+            </div>
+            <div class="policy-content">
+                <p>Welcome to <code>ishacareclinicinc.us</code>. By accessing, browsing, or utilizing this website, you explicitly agree to be bound by these full Terms of Use and all applicable local, state, and federal laws and regulations.</p>
+
+                <h3>1. Non-Profit Status and Purpose</h3>
+                <p>ISHA CARE CLINIC INC is a duly registered 501(c)(3) non-profit organization operating under Employer Identification Number (EIN) 26-3140250, with our principal office located at 951 ISHA LN, MCMINNVILLE TN 37110. This website is established and operated exclusively for charitable, educational, community health, and wellness outreach purposes. Content on this site is for informational purposes only and does not constitute emergency medical advice.</p>
+
+                <h3>2. Acceptable Use Policy</h3>
+                <p>Users agree to utilize this website strictly for lawful, non-commercial purposes. You agree not to submit fraudulent inquiries, engage in automated data scraping, attempt unauthorized access to our digital systems, or misuse official contact channels (such as <code>query@ishacareclinicinc.us</code>) for unsolicited advertising, harassment, or spam.</p>
+
+                <h3>3. Intellectual Property Rights</h3>
+                <p>All text, graphics, logos, images, design elements, and downloadable content featured on <code>ishacareclinicinc.us</code> are the intellectual property of ISHA CARE CLINIC INC or its content contributors and are protected by United States and international copyright laws. Unauthorized reproduction, modification, distribution, or republication of any material without express written consent is strictly prohibited.</p>
+
+                <h3>4. Limitation of Liability</h3>
+                <p>ISHA CARE CLINIC INC provides the information on this website on an "as is" and "as available" basis without warranties of any kind, either express or implied. The organization shall not be held liable for any direct, indirect, incidental, or consequential damages arising out of or in connection with the use of this website or reliance on its content.</p>
+
+                <h3>5. Contact Information</h3>
+                <p>For any questions or concerns regarding these Terms of Use, please reach out via email at <a href="mailto:query@ishacareclinicinc.us">query@ishacareclinicinc.us</a> or write to us at 951 ISHA LN, MCMINNVILLE TN 37110.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nondiscrimination Policy Modal -->
+    <div id="nondiscrimModal" class="modal-page">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('nondiscrimModal')">×</button>
+            <h2 style="font-size: 2.2rem; margin-bottom: 0.5rem;">Nondiscrimination Policy</h2>
+            <div class="policy-meta">
+                <strong>Organization:</strong> ISHA CARE CLINIC INC (EIN: 26-3140250) | 
+                <strong>Domain:</strong> ishacareclinicinc.us | 
+                <strong>Effective Date:</strong> January 1, 2026
+            </div>
+            <div class="policy-content">
+                <p>ISHA CARE CLINIC INC champions a strict policy of equal opportunity, inclusion, and nondiscrimination across all of our community healthcare services, wellness workshops, public outreach initiatives, volunteer selections, and staffing decisions.</p>
+
+                <h3>1. Equal Access and Opportunity</h3>
+                <p>In accordance with federal 501(c)(3) guidelines and our core values, ISHA CARE CLINIC INC does not discriminate, exclude, or treat individuals differently on the basis of race, color, religion, creed, gender, gender expression, age, national origin or ancestry, disability, marital status, sexual orientation, military or veteran status, or any other legally protected status in any of our operations or clinical programs.</p>
+
+                <h3>2. Scope of Policy</h3>
+                <p>This steadfast nondiscrimination commitment applies universally to patient access, community health programs, educational events, and the recruitment of clinical staff, officers, and volunteers.</p>
+
+                <h3>3. Contact</h3>
+                <p>To submit feedback or inquiries regarding our nondiscrimination practices, please contact our compliance team at <a href="mailto:query@ishacareclinicinc.us">query@ishacareclinicinc.us</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal JavaScript -->
+    <script>
+        function openModal(id) {
+            document.getElementById(id).style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal(id) {
+            document.getElementById(id).style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    </script>
+</body>
+</html>
